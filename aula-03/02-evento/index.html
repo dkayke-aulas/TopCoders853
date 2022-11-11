@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03-02</title>
+    <script src="./script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .loading {
+            width: 100vw;
+            height: 100vh;
+            background-color: rebeccapurple;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+        }
+
+        @keyframes pulsar-carregamento {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.3);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .loading::after {
+            animation: pulsar-carregamento 1s infinite;
+            content: 'Carregando...';
+            font-family: 'Segoe Ui', sans-serif;
+            font-size: 1.3em;
+            color: white
+        }
+
+        [class*='promocao'] {
+            font-size: 5em;
+        }
+
+
+    </style>
+    <!-- <script src="./script.js" defer></script> -->
+</head>
+<!-- <body onload="init()"> -->
+<body>
+
+    
+    <p class="promocao">promoção</p>
+    <p class="promocao">promoção</p>
+    <p class="promocao">promoção</p>
+    <p>promoção</p>
+    <p class="promocao">promoção</p>
+    <p class="promocao">promoção</p>
+
+    <!-- <div role="alertdialog" name="loading"></div>
+    <p role='button' id="p-clique">Clique em mim</p>
+    <img src="https://wallpaperaccess.com/full/2772.jpg" alt="" srcset="" width="100%">
+    <p role='button' id="p-clique2">Remover</p> -->
+</body>
+</html>
