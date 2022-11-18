@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+        span {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin: 2px 0;
+        }
+
+        span#contador {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+    <input id="input-tarefa" type="text" placeholder="Digite a sua tarefa">
+    <button type="button" id="btn-adicionar-tarefa">Adicionar +</button>
+    <button type="button" id="btn-limpar-lista">Limpar lista</button>
+    <span id="contador">nenhuma tarefa inserida</span>
+    <div id="container-tarefas"></div>
+</body>
+
+</html>
