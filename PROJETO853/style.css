@@ -1,0 +1,9 @@
+@import url('./src/styles/header.component.css');
+
+
+body, * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}

@@ -1,0 +1,13 @@
+#c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: blueviolet;
+    color: azure;
+    padding: 10px;
+}
+
+#c-header button {
+    border: none;
+    background: tomato;
+}
