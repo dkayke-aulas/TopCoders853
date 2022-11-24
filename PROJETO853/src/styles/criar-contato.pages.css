@@ -1,0 +1,8 @@
+#p-criar-contato fieldset {
+    margin: 15px 0;
+    border: 1px solid tomato;
+}
+
+#p-criar-contato legend {
+    color: tomato;
+}

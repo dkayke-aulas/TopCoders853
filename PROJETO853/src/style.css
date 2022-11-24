@@ -1,0 +1,26 @@
+@import url('./styles/header.component.css');
+@import url('./styles/contatos.pages.css');
+@import url('./styles/criar-contato.pages.css');
+
+
+body, * {
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+input, button, select, textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+a {
+    display: inline-block;
+    margin: 20px 0;
+}

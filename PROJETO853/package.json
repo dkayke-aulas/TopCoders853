@@ -1,0 +1,19 @@
+{
+  "name": "projeto-turma-853",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "compress.js": "^1.2.2"
+  }
+}

@@ -18,6 +18,7 @@ export const Header = () => {
     const user = JSON.parse(sessionStorage.getItem('@user'))
 
     header.innerHTML = `
+        <img src="data:image/jpeg;base64,${user.foto}">
         <label>${user?.nome}</label>
         <button id="sair">Sair</button>
     `
